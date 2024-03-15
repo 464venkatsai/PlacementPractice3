@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .ears{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            height: 4rem;
+            width: 10rem;
+        }
+        .ears div{
+            background-color: pink;
+            width: 4rem;
+            height: 4rem;
+            border-radius : 50%;
+        }
+        .face{
+            position: absolute;
+            margin-top: -3rem;
+            background-color: pink;
+            width: 10rem;
+            border-radius: 50%;
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .eyes{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .eyes div{
+            background-color: black;
+            border: 0.5rem solid white;
+            width: 1rem;
+            height: 1rem;
+            border-radius :50%;
+        }
+        .mouth{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 4rem;
+            height: 2rem;
+            border-radius: 70px;
+            margin-top: 1rem;
+            margin-left: 3rem;
+            background-color: red;
+        }
+        .mouth div{
+            background-color: black;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <section class="emoji">
+            <div class="ears">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="face">
+            <section class="eyes">
+                <div></div>
+                <div></div>
+            </section>
+            <div class="mouth">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+</center>
+</body>
+</html>
